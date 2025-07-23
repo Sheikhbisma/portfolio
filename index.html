@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Portfolio</title>
+  <!-- css -->
+  <link rel="stylesheet" href="/style.css">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top ">
+      <div class="container">
+        <a class="navbar-brand fs-2 fw-bold text-light" href="#">Bisma <span>Sheikh</span></a>
+        <button class="navbar-toggler" style="color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#home"><i class="fa-solid fa-house"></i>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about"><i class="fa-solid fa-circle-user"></i>About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services"><i class="fa-solid fa-file"></i>Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#timeline"><i class="fa-solid fa-clock"></i>Timeline</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio"><i class="fa-solid fa-circle-user"></i>Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"><i class="fa-solid fa-phone"></i>Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="hero min-vh-100 d-flex align-items-center justify-content-center" style="padding-top: 80px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 ">
+            <div class="profile-pic ">
+              <img src="/assets/profile-pic.jpg" class="img-fluid " alt="profile-pic">
+            </div>
+          </div>
+          <div class="col-md-6 order-md-first mb-md-0 mt-5">
+            <div class="text">
+              <p class="text-muted mb-0">Hello I'm</p>
+              <h1 class="fs-1 fw-bold text-uppercase " style="color:#0b1c35 ;">Web Developer</h1>
+              <h2 class="fs-2">Bisma Sheikh</h2>
+              <p class="text-muted mt-4">I’m a Frontend Developer skilled in HTML, CSS, and Bootstrap. I create
+                responsive and visually appealing websites that look great on all devices.</p>
+              <a href="" class="btn px-4 mt-3 mb-5 mb-md-0">My work</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="about py-5 " id="about">
+      <div class="container">
+        <h2 class="fw-bold fs-1 text-uppercase text-center pb-5 ">About Me</h2>
+        <div class="row justify-content-center">
+          <div class=" col-md-6 col-12 about-pic ">
+            <img src="/assets/about.jpg" alt="about-img" class="img-fluid h-100">
+          </div>
+          <div class="  col-md-6 col-12  mt-md-0 mt-5">
+            <div class="card  p-3 h-100 d-flex flex-column align-items-center justify-content-center"
+              style="border-radius: 0px 40px;     box-shadow: 0px 10px 20px rgba(46, 66, 95, 0.781);">
+              <h3 class="card-title text-center fw-bold pb-3 fst-italic">About The Creator</h3>
+              <p class="card-text">Hi! I'm Bisma Sheikh, a passionate Frontend Developer currently pursuing my training
+                at Aptech.
+                I specialize in building responsive, user-friendly websites using HTML, CSS, Bootstrap, and
+                JavaScript.I’m still learning and growing as a frontend developer. Whatever I’ve learned so far, I try
+                to apply it by building small projects and adding them here on this website. This platform is not just a
+                showcase, but also a reflection of my learning journey.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="service py-5" id="services">
+      <div class="container">
+        <h2 class="fw-bold fs-1 text-uppercase text-center pb-5 text-light">Services</h2>
+        <div class="row justify-content-center  flex-wrap">
+          <div class="col-lg-4 col-md-6 col-12  mb-lg-0 mb-md-5 mb-5">
+            <div class="card  ">
+              <i class="fas fa-code"></i>
+              <div class="card-body text-center">
+                <h3 class="card-title">Frontend Developer</h3>
+                <p class="card-text">I specialize in building clean, fast, and interactive websites using HTML, CSS,
+                  JavaScript, and modern frameworks like React or Bootstrap. I focus on writing optimized, maintainable
+                  code to ensure a smooth user experience.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4  col-12  mb-lg-0 mb-md-5 mb-5">
+            <div class="card">
+              <i class="fas fa-pencil-ruler"></i>
+              <div class="card-body text-center">
+                <h3 class="card-title">UI/UX Designer</h3>
+                <p class="card-text">I design intuitive and visually appealing user interfaces that enhance usability
+                  and engagement. I turn ideas into wireframes and high-fidelity designs, focusing on user needs,
+                  accessibility, and modern trends.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-12">
+            <div class="card  ">
+              <i class="fas fa-mobile-alt"></i>
+              <div class="card-body text-center">
+                <h3 class="card-title">Responsive Web Designer</h3>
+                <p class="card-text">I create websites that adapt beautifully to all screen sizes — desktop, tablet, or
+                  mobile. I use mobile-first design principles and flexible layouts to ensure your site looks perfect on
+                  every device.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="vertical-timeline py-5" id="timeline">
+      <h2 class="fw-bold fs-1 text-uppercase text-center py-5">Journey Through Time </h2>
+      <div class="timeline" data-aos="fade-down">
+        <div class="content left" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+          <img src="/assets/graduation-cap.png" alt="">
+
+          <div class="text-box">
+            <h3>Matric Completed</h3>
+            <small>2022</small>
+            <p> Matriculation – Science Group
+              Completed Matric with interest in Computer Science.
+              Started learning MS Office and HTML basics as a hobby.
+            </p>
+            <span class="left-arrow"></span>
+          </div>
+        </div>
+        <div class="content right" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+          <img src="/assets/graduation-cap.png" alt="">
+
+          <div class="text-box">
+            <h3>College Completed</h3>
+            <small>2024</small>
+            <p>Successfully completed my college education.
+              This phase helped strengthen my academic foundation and explore my interest in technology and creativity.
+            </p>
+            <span class="right-arrow"></span>
+          </div>
+        </div>
+        <div class="content left" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">
+          <img src="/assets/graduation-cap.png" alt="">
+
+          <div class="text-box">
+            <h3>Join Aptech</h3>
+            <small>2024</small>
+            <p>Enrolled in Aptech – 3-Year Diploma in Software Engineering
+              Started learning full-stack development with hands-on projects.
+
+            </p>
+            <span class="left-arrow"></span>
+          </div>
+        </div>
+        <div class="content right" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">
+          <img src="/assets/graduation-cap.png" alt="">
+
+          <div class="text-box">
+            <h3>Ongoing Diploma Journey</h3>
+            <small>2025-2028</small>
+            <p>Future Software Engineer
+              Currently pursuing Aptech's 3-Year Diploma in Software Engineering.Aspiring to become a professional
+              software engineer with a strong design sense.
+
+            </p>
+            <span class="right-arrow"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio py-5" id="portfolio">
+     
+  <div class="container">
+      <h2 class="fw-bold fs-1 text-uppercase  text-center py-5">My Portfolio </h2>
+    <div class="row">
+
+      <!-- Project 1 -->
+      <div class="col-lg-4 col-md-6 col-12 mb-4">
+        <div class="card h-100">
+          <img src="/assets/work-1.png" class="card-img-top" alt="festivals" style="height: 200px;">
+          <div class="card-body text-center">
+            <h5 class="card-title fs-1 fw-bold fst-italic py-2">Festivals</h5>
+            <a href="https://festivals-ten.vercel.app/" target="_blank" class="btn btn-primary btn-sm fs-5">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-lg-4 col-md-6 col-12 mb-4">
+        <div class="card h-100">
+          <img src="/assets/work-2.png" class="card-img-top" alt="organic" style="height: 200px;">
+          <div class="card-body text-center">
+            <h5 class="card-title fs-1 fw-bold fst-italic py-2">Organic Farm</h5>
+            <a href="https://organic-farm-blush.vercel.app/" target="_blank" class="btn btn-primary btn-sm fs-5">View Project</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Project 3 (Add more like this) -->
+      <div class="col-lg-4 col-md-6 col-12 mb-4">
+        <div class="card h-100">
+          <img src="/assets/work-3.png" class="card-img-top" alt="fashion" style="height: 200px;">
+          <div class="card-body text-center">
+            <h5 class="card-title fs-1 fw-bold fst-italic py-2">Fashionest</h5>
+            <a href="https://fashionista-phi.vercel.app/" target="_blank" class="btn btn-primary btn-sm fs-5">View Project</a>
+          </div>
+        </div>
+      </div>
+      <!-- ... -->
+
+    </div>
+  </div>
+
+
+    </section>
+    <!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+          <h2 class="fw-bold fs-1 text-uppercase  text-center py-5">Contact </h2>
+
+    <div class="row align-items-center g-5">
+      <!-- Left: Contact Info -->
+      <div class="col-lg-6">
+        <h2 class="fw-bold mb-3">Get in Touch</h2>
+        <p class="mb-4 text-muted">Feel free to contact me for any project or collaboration. I’ll respond as soon as possible.</p>
+        <ul class="list-unstyled">
+          <li class="mb-3">
+            <i class="bi bi-envelope-fill me-2 text-primary"></i>
+            <strong>Email:</strong><span class="px-2">📧</span> bismasheikh2006@gmail.com
+          </li>
+          <li class="mb-3">
+            <i class="bi bi-phone-fill me-2 text-primary"></i>
+            <strong>Phone:</strong><span class="px-2">📞</span> +92 3098564312
+          </li>
+          <li class="mb-3">
+            <i class="bi bi-geo-alt-fill me-2 text-primary"></i>
+            <strong>Location:</strong><span class="px-2">🏠</span> Karachi, Pakistan
+          </li>
+        </ul>
+       
+      </div>
+
+      <!-- Right: Form -->
+      <div class="col-lg-6">
+        <div class="card border-0 shadow-lg">
+          <div class="card-body p-4">
+            <h5 class="mb-4">Send me a message</h5>
+            <form>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Your Email" required>
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+  <!-- Footer -->
+<footer class=" text-light pt-5 pb-3">
+  <div class="container">
+    <div class="row">
+      <!-- Brand Info -->
+      <div class="col-md-4 mb-4">
+        <h4 class="fw-bold">Bisma Sheikh</h4>
+        <p class="text-light">Passionate Frontend Developer creating modern & responsive web designs.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-semibold">Quick Links</h5>
+        <ul class="list-unstyled d-flex flex-column gap-1">
+          <li><a href="#home" >Home</a></li>
+          <li><a href="#about" >About</a></li>
+          <li><a href="#projects">Services</a></li>
+          <li><a href="#contact" >Timeline</a></li>
+          <li><a href="#contact">Portfolio</a></li>
+          <li><a href="#contact" >Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-semibold">Follow Me</h5>
+        <div class="d-flex gap-4">
+          <a href="https://www.facebook.com/" target="_blank" class="text-light fs-5"><i class="fab fa-facebook-f fs-3"></i></a>
+          <a href="https://www.linkedin.com/in/bisma-sheikh-768911269/" target="_blank" class="text-light fs-5"><i class="fab fa-linkedin-in fs-3"></i></a>
+          <a href="https://github.com/Sheikhbisma" target="_blank" class="text-light fs-5"><i class="fab fa-github fs-3"></i></a>
+          <a href="https://www.instagram.com/code_withbisma/" target="_blank" class="text-light fs-5"><i class="fab fa-instagram fs-3"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-light">
+
+    <!-- Copyright -->
+    <div class="text-center text-light">
+      &copy; 2025 YourName. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+  <!-- bootstrap js bundle-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      disable: window.innerWidth < 768, // mobile par disable
+      once: false, // ek hi baar animation
+    });
+  </script>
+
+
+
+</body>
+
+</html>

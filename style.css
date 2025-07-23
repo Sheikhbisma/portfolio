@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
+body {
+    color: #ffffff;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #122746;
+
+}
+.nav-item i{
+    padding-right: 10px;
+    padding-left: 5px;
+}
+.navbar .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    font-style: italic;
+    border: transparent;
+    border-radius: 15px;
+    transition: all 0.6s ease;
+}
+.nav-link:hover{
+    background-color: #ffffff;
+    color: #0b1c35 !important;
+    border-radius: 15px;
+
+}
+.navbar span {
+    color: #5185d4;
+}
+
+.profile-pic {
+    aspect-ratio: 1/1;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+.about{
+    background-color: gainsboro;
+}
+.about-pic img{
+    border-radius: 40px 0px;
+    box-shadow: 0px 10px 20px rgba(46, 66, 95, 0.781);
+}
+
+.profile-pic img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.text .btn {
+    background-color: #0b1c35 !important;
+    color: #ffffff;
+
+}
+
+
+.service {
+    background: linear-gradient(135deg, #0b1c35, #0f4c81);
+    overflow: hidden;
+}
+
+.service .card {
+    padding-top: 20px;
+    box-shadow: 0px 10px 20px rgba(40, 121, 243, 0.781);
+height: 100%;
+
+}
+
+.service i {
+    font-size: 3rem;
+    text-align: center;
+}
+.timeline{
+    margin:50px auto;
+    max-width: 1200px;
+    position: relative;
+}
+.timeline::after{
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    margin-left: -3px;
+    top: 0;
+    left: 50%;
+    background-color: black;
+    z-index: -1;
+}
+.content{
+    width: 50%;
+position: relative;
+    color: white;
+    padding: 1rem;
+   
+
+}
+
+
+.content img{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    background-color:white;
+
+    right: -20px;
+    top: 40px;
+    z-index: 10;
+}
+.right img{
+    left: -20px;
+}
+.left{
+    left: 0;
+      padding-right: 30px;
+}
+.right{
+    left: 50%;
+      padding-left: 30px;
+}
+.text-box{
+        background-color: #0b1c35;
+position: relative;
+    padding: 20px 25px ;
+    border-radius: 10px;
+    height: 100%;
+}
+.text-box h3{
+    font-weight: bold;
+    font-style: italic;
+}
+.text-box small{
+    font-size: 20px;
+}
+.text-box p{
+    font-size: 20px;
+}
+
+.left-arrow{
+height: 0;
+width: 0;
+position: absolute;
+right:-15px;
+top: 40px;
+z-index: 1;
+border-top: 15px solid transparent;
+border-bottom:15px solid transparent ;
+border-left:15px solid black ;
+}
+.right-arrow{
+height: 0;
+width: 0;
+position: absolute;
+left:-13px;
+top: 40px;
+z-index: 1;
+border-top: 15px solid transparent;
+border-bottom:15px solid transparent ;
+border-right:15px solid black ;
+}
+@media (max-width: 768px) {
+ 
+  .about-pic{
+    height: 250px;
+  }
+  .about-pic img{
+    height: 100%;
+    width: 100%;
+    
+  }
+ .about .card-title{
+    font-size: 1.2rem !important;
+ }
+ .about .card-text{
+    font-size: 0.80rem !important;
+ }
+
+ 
+.content{
+    width: 100%;
+    padding-right:15px ;
+    padding-left:50px ;
+}
+.text-box{
+    height: auto;
+}
+.text-box h3 {
+  font-size: 1.2rem;
+}
+.text-box p, .text-box small {
+  font-size: 0.95rem;
+}
+  .right{
+    left: 0;
+  }
+ .left img, .right img{
+    left: 0px;
+    top: 0;
+    margin-top: 50px;
+}
+.left-arrow, .right-arrow{
+    border-right: 15px solid black;
+    border-left: 0;
+    left: -13px;
+}
+.timeline{
+    margin: 50px auto;
+}
+  .timeline::after{
+    left: 20px;
+  }
+}
+.portfolio{
+    background-color: gainsboro;
+
+}
+.portfolio .card{
+    box-shadow: 0px 10px 20px rgba(46, 66, 95, 0.781);
+
+}
+footer{
+    background-color: #122746;
+}
+footer a{
+    color: #ffffff;
+    font-size: 17px;
+    font-style: italic;
+    text-decoration: underline !important;
+}
+footer a:hover{
+    color: #ffffff;
+        font-weight: bold;
+
+}
